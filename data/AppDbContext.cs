@@ -13,7 +13,7 @@ public class AppDbContext : DbContext
     public DbSet<Unidade> Unidades { get; set; }
     public DbSet<ProdutoUnidade> ProdutosUnidades { get; set; }
     public DbSet<Pedido> Pedidos { get; set; }
-    public DbSet<ItemPedido> ItensPedidos { get; set; }
+        public DbSet<ItemPedido> ItensPedidos { get; set; }
     public DbSet<Estoque> Estoques { get; set; }
     public DbSet<MovimentoEstoque> MovimentosEstoque { get; set; }
     public DbSet<Pagamento> Pagamentos { get; set; }
